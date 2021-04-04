@@ -14,6 +14,7 @@ admin.initializeApp(functions.config().firebase)
 
         const token = doc.data().deviceToken;
         console.log(token)
+        // To Complete
         return true
 
     })
