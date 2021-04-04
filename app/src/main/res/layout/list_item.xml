@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/userImageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:shapeAppearanceOverlay="@style/RoundedImageViewSmall"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_profile_outline_40" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TitleTv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:ellipsize="end"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Ansh Bajpai"
+                android:lines="1"
+                android:textSize="18sp"
+                android:layout_marginEnd="12dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TimeTv"
+                android:layout_width="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@android:color/black"
+                android:lines="1"
+                android:text="6/1/20"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/SubTitleTv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:ellipsize="end"
+                android:textColor="@android:color/black"
+                android:lines="1"
+                android:text="Hey There!"
+                android:textSize="14sp"
+                android:layout_marginEnd="12dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/CountTv"
+                android:layout_width="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:lines="1"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:background="@drawable/count_background"
+                android:textSize="14sp"
+                android:text="6"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

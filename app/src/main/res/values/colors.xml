@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7289da</color>
+    <color name="colorPrimaryDark">#7289da</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="orange">#FF5700</color>
+    <color name="discordblue">#7289da</color>
+    <color name="grey">#56585c</color>
+    <color name="discordGrey">#9E9E9E</color>
+    <color name="white">#ffffff</color>
+    <color name="cream">#F4E8C8</color>
+    <color name="bluelight">#00c6ff</color>
+    <color name="black">#000000</color>
+</resources>
